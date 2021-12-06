@@ -4,6 +4,7 @@ var bodyParser = require('body-parser')
 var debug = require('debug')('index');
 
 var emailFinder = require('./lib/email-finder');
+var emailCheck = require('./lib/email-check');
 
 var app = express();
 
@@ -47,6 +48,16 @@ app.post('/find', function(req, res) {
   .catch(function (err) {
     res.status(500).send(err);
   })
+});
+
+app.get('/check', function(req, res) {
+  const email = req.query.email.trim();
+  emailCheck(email)
+  .then(function (email) {
+    res.send({email: email});
+  }).catch(function (err) { 
+    res.status(500).send(err);
+   });
 });
 
   // All set, start listening!
