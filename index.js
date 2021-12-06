@@ -51,8 +51,10 @@ app.post('/find', function(req, res) {
 });
 
 app.get('/check', function(req, res) {
-  const email = req.query.email.trim();
-  emailCheck(email)
+  const data = {
+    email: req.query.email.trim()
+  } 
+  emailCheck(data)
   .then(function (email) {
     res.send({email: email});
   }).catch(function (err) { 
