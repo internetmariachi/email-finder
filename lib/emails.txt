@@ -37,7 +37,6 @@
 {{fi}}-{{sl}}@{{domain}}
 {{fi}}_{{sl}}@{{domain}}
 
-
 {{fi}}{{li}}{{mn}}@{{domain}}
 {{fi}}.{{li}}{{mn}}@{{domain}}
 {{fi}}-{{li}}{{mn}}@{{domain}}
@@ -67,6 +66,25 @@
 {{firstmn}}.{{fi}}@{{domain}}
 {{firstmn}}_{{fi}}@{{domain}}
 {{firstmn}}-{{fi}}@{{domain}}
+{{firstmn}}{{firstsl}}@{{domain}}
+{{firstmn}}.{{firstsl}}@{{domain}}
+{{firstmn}}-{{firstsl}}@{{domain}}
+{{firstmn}}_{{firstsl}}@{{domain}}
+{{fi}}{{firstmn}}{{li}}{{firstsl}}@{{domain}}
+{{fi}}.{{firstmn}}.{{li}}.{{firstsl}}@{{domain}}
+{{fi}}-{{firstmn}}.{{li}}.{{firstsl}}@{{domain}}
+{{fi}}-{{firstmn}}-{{li}}.{{firstsl}}@{{domain}}
+{{fi}}-{{firstmn}}-{{li}}-{{firstsl}}@{{domain}}
+{{fi}}_{{firstmn}}.{{li}}.{{firstsl}}@{{domain}}
+{{fi}}_{{firstmn}}_{{li}}.{{firstsl}}@{{domain}}
+{{fi}}_{{firstmn}}_{{li}}_{{firstsl}}@{{domain}}
+{{fi}}{{middlename}}{{li}}{{firstsl}}@{{domain}}
+{{fi}}{{middlename}}{{li}}{{secondlastname}}@{{domain}}
+{{fi}}{{middlename}}{{secondlastname}}@{{domain}}
+{{fi}}.{{middlename}}.{{lastname}}@{{domain}}
+{{fi}}{{middlename}}{{lastname}}@{{domain}}
+
+
 {{fn}}@{{domain}}
 {{ln}}@{{domain}}
 {{fn}}{{ln}}@{{domain}}
