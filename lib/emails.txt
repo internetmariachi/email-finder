@@ -37,6 +37,7 @@
 {{fi}}-{{sl}}@{{domain}}
 {{fi}}_{{sl}}@{{domain}}
 
+
 {{fi}}{{li}}{{mn}}@{{domain}}
 {{fi}}.{{li}}{{mn}}@{{domain}}
 {{fi}}-{{li}}{{mn}}@{{domain}}
